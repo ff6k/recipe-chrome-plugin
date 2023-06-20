@@ -15,3 +15,7 @@
    2. Check `Developer mode`
    3. Click on `Load unpacked extension`
    4. Select the `build` folder.
+
+## Screenshot of result
+
+![image](https://github.com/silvercoderninja/recipe-chrome-plugin/assets/75097898/0eeb9c1f-553b-43d7-88dd-f93a370b624d)
