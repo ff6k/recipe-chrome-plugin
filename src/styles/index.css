@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/HelveticaNeueCyr-Light.ttf');
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/HelveticaNeueCyr-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/HelveticaNeueCyr-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./fonts/HelveticaNeueCyr-Roman.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto-Regular.ttf');
+}
+
+body {
+  width: 410px;
+  height: 600px;
+  margin: 0;
+  font-family: 'HelveticaNeue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  position: relative;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 9999px;
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #5b6178;
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #5b6178;
+}
+
+.scrollbar::-webkit-scrollbar:hover {
+  border: 0;
+}
